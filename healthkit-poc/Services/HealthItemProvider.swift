@@ -24,25 +24,25 @@ class HealthItemProvider {
     }
     
     let healthItems: Array<HealthItem> = [
-        // Body Measurements
+        // Nutrition TODO
         HealthItem { item in
-            item.name = "Weight"
-            item.hkIdentifier = HKQuantityTypeIdentifierBodyMass
-        },
-        // Fitness
-        HealthItem { item in
-            item.name = "Steps"
-            item.hkIdentifier = HKQuantityTypeIdentifierStepCount
+            item.name = "Caffeine"
+            item.hkIdentifier = HKQuantityTypeIdentifierDietaryCaffeine
         },
         // Vitals
         HealthItem { item in
             item.name = "Heart Rate"
             item.hkIdentifier = HKQuantityTypeIdentifierHeartRate
         },
-        // Nutrition TODO
+        // Fitness
         HealthItem { item in
-            item.name = "Caffeine"
-            item.hkIdentifier = HKQuantityTypeIdentifierDietaryCaffeine
+            item.name = "Steps"
+            item.hkIdentifier = HKQuantityTypeIdentifierStepCount
+        },
+        // Body Measurements
+        HealthItem { item in
+            item.name = "Weight"
+            item.hkIdentifier = HKQuantityTypeIdentifierBodyMass
         }
     ]
 }
