@@ -1,4 +1,4 @@
 language: objective-c
 
 script:
-- xcodebuild build -scheme healthkit-poc-project -destination 'platform=iOS Simulator,name=iPhone 6,OS=8.0'
+- xcodebuild build -scheme healthkit-poc-project -destination 'platform=iOS Simulator,name=iPhone 5S,OS=8.0'
