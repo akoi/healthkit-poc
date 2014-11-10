@@ -3,4 +3,4 @@ osx_image: xcode61
 
 script:
 #- xcodebuild test -scheme healthkit-poc-project -destination 'platform=iOS Simulator,name=iPhone 6,OS=8.1'
-xctool -scheme healthkit-poc-project test -test-sdk iphonesimulator
+- xctool -scheme healthkit-poc-project test -test-sdk iphonesimulator
