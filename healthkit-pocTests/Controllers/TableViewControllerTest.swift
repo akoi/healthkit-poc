@@ -5,7 +5,6 @@
 
 import UIKit
 import XCTest
-import HealthKit
 
 class TableViewControllerTest: XCTestCase {
 

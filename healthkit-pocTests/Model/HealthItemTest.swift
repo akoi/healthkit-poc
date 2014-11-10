@@ -3,7 +3,6 @@
 //  healthkit-poc
 //
 
-import UIKit
 import XCTest
 
 class HealthItemTest: XCTestCase {
