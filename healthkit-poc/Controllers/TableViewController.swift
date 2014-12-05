@@ -38,7 +38,7 @@ class TableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as UITableViewCell
 
         // Configure the cell...
-        cell.textLabel.text = healthItems[indexPath.row].name
+        cell.textLabel?.text = healthItems[indexPath.row].name
 
         return cell
     }
