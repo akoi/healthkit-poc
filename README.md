@@ -5,4 +5,4 @@ healthkit-poc
 
 Quick HealthKit PoC for testing
 
-Doesn't do too much right now!
+Doesn't do much right now!
